@@ -190,13 +190,13 @@ for(let j=0;j<maxY;j++){
 //Add characters 
 
 
-let boba = svg.append('image').attr('href', "/boba.png").attr("x",705+8*(500/maxX)).attr("y",205+8*(500/maxY)).attr("height",500/maxY -10).attr("width",500/maxX -10);
+let boba = svg.append('image').attr('href', "./boba.png").attr("x",705+8*(500/maxX)).attr("y",205+8*(500/maxY)).attr("height",500/maxY -10).attr("width",500/maxX -10);
 
-let bobaV = svg.append('image').attr('href', "/boba.png").attr("x",105+8*(500/maxX)).attr("y",205+8*(500/maxY)).attr("height",500/maxY -10).attr("width",500/maxX -10);
+let bobaV = svg.append('image').attr('href', "./boba.png").attr("x",105+8*(500/maxX)).attr("y",205+8*(500/maxY)).attr("height",500/maxY -10).attr("width",500/maxX -10);
 
-let sarlacc = svg.append('image').attr('href', "/sarlacc.png").attr("x",705+3*(500/maxX)).attr("y",205+3*(500/maxY)).attr("height",3*(500/maxY) -10).attr("width",3*(500/maxX) -10);
+let sarlacc = svg.append('image').attr('href', "./sarlacc.png").attr("x",705+3*(500/maxX)).attr("y",205+3*(500/maxY)).attr("height",3*(500/maxY) -10).attr("width",3*(500/maxX) -10);
 
-let sarlaccV = svg.append('image').attr('href', "/sarlacc.png").attr("x",105+3*(500/maxX)).attr("y",205+3*(500/maxY)).attr("height",3*(500/maxY) -10).attr("width",3*(500/maxX) -10);
+let sarlaccV = svg.append('image').attr('href', "./sarlacc.png").attr("x",105+3*(500/maxX)).attr("y",205+3*(500/maxY)).attr("height",3*(500/maxY) -10).attr("width",3*(500/maxX) -10);
 
 let lukeScore = 0
 let lukePos = [0,0]
