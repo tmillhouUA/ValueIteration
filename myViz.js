@@ -200,7 +200,7 @@ let sarlaccV = svg.append('image').attr('href', "./sarlacc.png").attr("x",105+3*
 
 let lukeScore = 0
 let lukePos = [0,0]
-let luke = svg.append('image').attr('href', "/luke.png").attr("x",705).attr("y",205).attr("height",500/maxY -10).attr("width",500/maxX -10);
+let luke = svg.append('image').attr('href', "./luke.png").attr("x",705).attr("y",205).attr("height",500/maxY -10).attr("width",500/maxX -10);
 
 function updateValues(V=valueMap){
 
